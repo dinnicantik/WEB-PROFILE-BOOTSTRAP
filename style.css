@@ -1,0 +1,80 @@
+/* Reset gaya dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: black;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
+
+#home,
+#profil,
+#galeri,
+#kontak {
+    margin-bottom: 2em;
+}
+
+.gallery {
+    display: flex;
+    gap: 1em;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+#footer {
+    background-color: #000;
+    /* Warna latar belakang hitam */
+    color: #fff;
+    /* Warna teks putih */
+    padding: 20px 0;
+    /* Padding atas dan bawah */
+    text-align: center;
+    /* Teks di tengah */
+}
+
+.social-icons a {
+    color: #fff;
+    /* Warna ikon putih */
+    margin: 0 10px;
+    /* Jarak antar ikon */
+    font-size: 24px;
+    /* Ukuran ikon */
+}
+
+.social-icons a:hover {
+    color: black;
+    /* Warna saat hover */
+}
